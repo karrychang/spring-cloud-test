@@ -7,6 +7,10 @@
         <module>first-ek-server</module>
         <module>first-ek-service-provider</module>
         <module>first-ek-service-invoker</module>
+        <module>first-cloud-server</module>
+        <module>first-cloud-provider</module>
+        <module>first-cloud-invoker</module>
+        <module>first-cloud-rest-client</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

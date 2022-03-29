@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: first-cloud-provider
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    eureka-server-u-r-l-context: http://slave1:8761/eureka/,http://slave2:8762/eureka/
