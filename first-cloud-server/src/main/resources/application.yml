@@ -3,7 +3,8 @@ server:
 spring:
   application:
     name: first-cloud-server
-  profiles: slave1
+  profiles:
+    active: slave1
 eureka:
   instance:
     hostname: slave1
@@ -17,7 +18,8 @@ server:
 spring:
   application:
     name: first-cloud-server
-  profiles: slave2
+  profiles:
+    active: slave2
 eureka:
   instance:
     hostname: slave2
